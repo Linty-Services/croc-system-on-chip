@@ -1,0 +1,4 @@
+verific -sv -lib ./ihp13/pdk/ihp-sg13g2/libs.ref/sg13g2_stdcell/verilog/sg13g2_stdcell.v
+verific -sv -lib ./ihp13/pdk/ihp-sg13g2/libs.ref/sg13g2_io/verilog/sg13g2_io.v
+verific -sv -lib ./ihp13/pdk/ihp-sg13g2/libs.ref/sg13g2_sram/verilog/RM_IHPSG13_1P_256x64_c2_bm_bist.v
+verific -f -sv ./croc.flist
